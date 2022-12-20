@@ -57,8 +57,6 @@ def audio_frame_callback(frame: av.AudioFrame):
     return new_frame
 
 
-# https://github.com/whitphx/streamlit-webrtc/blob/main/streamlit_webrtc/config.py
-
 with col1:
     ctx = webrtc_streamer(
         key="drowsiness-detection",
